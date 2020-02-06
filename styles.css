@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  justify-content:center;
+  background-color: 	#A9A9A9;
+  flex-direction: column;
+  width: 15%;
+  margin: 0;
+  float: left;
+}
+
+nav a{
+transition: 0.75s;
+background-color:#B8B8B8;
+padding: 1em;
+margin: 0;
+}
+
+nav a:hover{
+  background-color: #F0F0F0;
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  background-color: #A9A9A9;
+  margin: 0;
+  overflow: auto;
+
+}
+
+main{
+  width: 85%;
+  margin: 0;
+  float: right;
+  background-color: #D8BFD8;
+}
